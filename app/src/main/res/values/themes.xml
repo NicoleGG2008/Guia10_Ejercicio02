@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema claro fijo con la paleta de colores -->
+    <style name="Base.Theme.Guia10_Ejercicio02" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/palette_2</item>
+        <item name="colorOnPrimary">@color/palette_light</item>
+        <item name="colorPrimaryContainer">@color/palette_5</item>
+        <item name="colorOnPrimaryContainer">@color/palette_1</item>
+
+        <item name="colorSecondary">@color/palette_3</item>
+        <item name="colorOnSecondary">@color/palette_light</item>
+        <item name="colorSecondaryContainer">@color/palette_4</item>
+        <item name="colorOnSecondaryContainer">@color/palette_1</item>
+
+        <item name="android:colorBackground">@color/palette_5</item>
+        <item name="colorSurface">@color/palette_light</item>
+        <item name="colorOnSurface">@color/palette_1</item>
+
+        <!-- Color de iconos (lupa y X del buscador) -->
+        <item name="colorControlNormal">@color/palette_2</item>
+    </style>
+
+    <style name="Theme.Guia10_Ejercicio02" parent="Base.Theme.Guia10_Ejercicio02" />
+</resources>
